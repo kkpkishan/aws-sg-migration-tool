@@ -13,7 +13,7 @@ This script facilitates the migration of AWS Security Group rules from one regio
 ## Sample Execution Steps
 
 1. **Prerequisites**: Ensure AWS CLI and `jq` are installed on your system.
-2. **Run the Script**: Execute the script using the command `bash sg_migration.sh`.
+2. **Run the Script**: Execute the script using the command `bash sg_import_export.sh`.
 3. **Provide Input**: Follow the prompts to input the source region, source security group ID, and destination details (region and VPC ID).
 4. **Review Rules**: Review the ingress rules and tags that will be replicated.
 5. **Confirm Migration**: Confirm to proceed with the migration when prompted.
